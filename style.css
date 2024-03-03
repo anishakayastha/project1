@@ -48,7 +48,11 @@ p1{
 }
 
 .section-p1{
-    padding: 40px 80px;
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .section-m1{
@@ -233,10 +237,21 @@ footer
 footer .col{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:flex-start;
+    
     margin-bottom: 20px;
 }
+.fot-container-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 100px;
 
+}
+.bold-text{
+    font-weight: bold;
+}
 footer .l
 {
     margin-bottom: 30px;
@@ -249,7 +264,7 @@ footer h4{
 
 footer p{
     font-size: 13px;
-    margin: 0 0 8px 0;
+
 }
 
 footer a{
@@ -262,6 +277,15 @@ footer a{
 footer .social
 {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fot-contact p{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
 }
 
 footer .social i
@@ -271,12 +295,33 @@ footer .social i
   cursor: pointer;
 }
 
-footer .install .row img
-{
-   border: #088178; 
+.row{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    padding-top: 10px;
+}
+.appstore-img{
+    border: #088178; 
    border-radius: 6px;
-   height: 45%;
+   height: 50px;
    width: 45%;
+
+}
+
+.install{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.install h4{
+    font-size: 20px;
+    padding-top: 25px
+
+}
+.install p,h4{
+    padding: 0px;
+    margin: 0px;
 }
 
 footer .install img
